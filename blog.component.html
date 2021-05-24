@@ -1,0 +1,12 @@
+<!-- MUESTRA POSTS ORDENADAMENTE QUE RECIBE DEL SERVICIO
+ESTRUCTURA BLOG -->
+<div class="posts">
+    <div class="post" *ngFor="let post of posts">
+        <p class="titulo">{{post.titulo}}</p>
+        <p>{{post.texto}}</p>
+        <p>{{post.autor}}</p>
+        <img [src]="post.imagen" alt="">
+        <p>{{post.fecha}}</p>
+        <p>{{post.categoria}}</p>
+    </div>
+</div>

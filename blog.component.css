@@ -1,0 +1,29 @@
+*{box-sizing:border-box;}
+
+.posts{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+.post p .titulo{
+    width:72px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+	font-weight:bold;
+	display:block;
+}
+
+.post p{
+	width:72px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+	font-weight:normal;
+	display:block;
+}
+
+.post img{
+    width: 100%;
+}
